@@ -1,12 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Malik Salvosa 09/2018 %%%%%%
+%%% Malik Salvosa 01/01/2020 %%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \PassOptionsToPackage{dvipsnames}{xcolor}
 \documentclass[10pt,a4paper]{altacv}
 
 %Layout
-\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=0.86cm,footskip=2\baselineskip}
 
 %Packages
 \usepackage[utf8]{inputenc}
@@ -34,13 +34,12 @@
 
 \begin{document}
 \name{Malik Salvosa}
-\tagline{2A Mechatronics Engineering}
+\tagline{3A Mechatronics Engineering}
 \personalinfo{
   \email{mrsalvosa@gmail.com}
-  \phone{+1 (647) 524 6743}
-  \mailaddress{135 MORAY AVE, Richmond Hill, ON L4E3E2}
-  \linkedin{linkedin.com/in/malik-salvosa-bb4071111/}
-  \github{github.com/malik0411}
+  \phone{+1 (647) 524-6743}
+  \linkedin{\hyperlink{linkedin.com/in/malik-salvosa/}{linkedin.com/in/malik-salvosa/}}
+  \github{\hyperlink{github.com/malik0411}{github.com/malik0411}}
 }
 
 %
@@ -51,104 +50,82 @@
 
 %
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \cvsection[page1sidebar]{Experience}
 
-%%%%%%%%%%%%%
-%Experience 1
-%%%%%%%%%%%%%
-
-\cvevent{Mechanical Engineer}{Skyjack Inc, a Linamar Company}{May 2018 -- August 2018}{}
+\cvevent{Computer Vision URA}{\hyperlink{https://the-ria.ca/project/virtual-reality/}{Research Assistantship at Research Institute for Aging}}{January 2020 -- PRESENT}{Waterloo, Ontario, Canada}
 
 \begin{itemize}
-\item Designed varying complexity carts, fixtures, paint windows, carriers \& racks using SolidWorks, AutoCAD, eDrawings, \& GD\&T.
-\item Enhanced project management skills by completing 12+ projects.
-\end{itemize}
-
-\textbf{Key achievement:} Designed \& implemented a single cart assembly + two fixtures capable of transporting the 46/63 AJ machine booms + risers.
-
-\divider
-%
-
-%%%%%%%%%%%%%
-%Experience 2
-%%%%%%%%%%%%%
-
-\cvevent{Intern}{The STEAM Project}{July 2017}{}
-
-\begin{itemize}
-  \item Assisted councilors in managing the campers' daily activities.
-  \item Utilized VEX Robotics, TinkerCAD, and constructed simple structures.
+    \item Interfaced computer vision algorithm with Unity VR exergame data
 \end{itemize}
 
 \divider
-%
 
-%%%%%%%%%%%%%
-%Experience 3
-%%%%%%%%%%%%%
-
-\cvevent{Instructor}{Ascension Jiu-Jitsu Academy}{April 2012 -- June 2017}{}
+\cvevent{Test Automation Engineer}{General Dynamics Mission Systems}{September 2019 -- December 2019}{Ottawa, Ontario, Canada}
 
 \begin{itemize}
-  \item Responsible for instructing classes to aid in student development.
-  \item Improved organizational skills by managing curriculum and evaluation.
+  \item DevOps of TestSelect infrastructure, CentOS VM ansible provisioning
+  \item Paired Python + RobotFramework for automated MHP MDMS testing
+  \item Encapsulated Jenkins instances using Docker containers
+  \item Implementation of TCP/IP and related Services-DHCP/XRDP from a Rednet Ubuntu system to Green Windows PC for vetronics hardware
+\end{itemize}
+
+\divider
+
+%
+
+\cvevent{Control Systems Engineer}{JMP Solutions - Automation \& Robotics Division}{January 2019 -- April 2019}{London, Ontario, Canada}
+
+\begin{itemize}
+  \item PLC programming, commissioning of robotic systems, including Fanuc M-2000iA palletizers \& Mazak i-500 3000U CNC  gantry systems
+  \item Project Management of HMI-PLC programming for UGVs
+\end{itemize}
+
+\divider
+
+%
+
+\cvevent{Mechanical Engineer}{Skyjack Inc, a Linamar Company}{May 2018 -- August 2018}{Guelph, Ontario, Canada}
+
+\begin{itemize}
+    \item Full mechanical design \& implementation of cart assemblies
+    \item Supervised commissioning of carriers \& fixtures using SolidWorks
 \end{itemize}
 
 \medskip
 
 %
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Design Team %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\cvsection[page2sidebar]{Design Team}
-
-%%%%%%%%%%%%%
-%Experience 1
-%%%%%%%%%%%%%
-
-\cvevent{Waterloo Formula Electric}{Accumulator Core Member}{September 2018 -- PRESENT}{}
-
-\begin{itemize}
-\item Designed and constructed the 72 groupings of 4-cell batteries.
-\item Collaborated with the team lead to ensure the timely completion of the remaining cells for the term, after which I aided Aerodynamics.
-\end{itemize}
-
-\divider
-%
-
-\medskip
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \cvsection[page2sidebar]{Projects}
 
-%%%%%%%%%%%%%
-%Project 1
-%%%%%%%%%%%%%
-
-\cvevent{Chip Sorting Robot}{Programmed in C}{November 2017}{}
+\cvevent{Waterloo Formula Electric -- Firmware Design}{Programmed in C}{September 2018 -- December 2019}{}
 
 \begin{itemize}
-  \item Mobile robot constructed using LEGO EV3 parts (ARM9 CPU).
-  \item Capable of sorting chip bags (by colour) into predetermined locations, allow users to choose a sorted chip bag, and retrieve the chosen bag.
+\item C-Programming of DCU firmware \& the digital vehicle display.
+\item Designed and assembled electrical systems, advanced circuit design.
 \end{itemize}
 
 \divider
 
-%
-
-%%%%%%%%%%%%%
-%Project 2
-%%%%%%%%%%%%%
-
-\cvevent{Robotic Arm}{LEGO Tetrix}{October 2017}{}
+\cvevent{Real-Time Operating System}{Programmed in C}{July 2019}{}
 
 \begin{itemize}
-  \item Controlled used Servo Motors rotating at \ang{180} and \ang{360}.
-  \item Utilized hydraulics to improve its' range of motion.
-  \item Capable of retrieving small objects and placing them in receptacles.
+  \item Implemented on a Cortex-M3 in Thread mode using MSP and PSP.
+  \item Multi-threading, FPP scheduling, Semaphores (MUTEX, Blocking) for task creation, context switching and priority inheritance.
 \end{itemize}
+
+\divider
+
+\cvevent{Mobile Line-Tracking Robot}{Programmed in C}{June 2019}{}
+
+\begin{itemize}
+  \item Translated code to CPU in hex \& routed electronics for line-tracking.
+  \item Soldered PCB, configured optical encoders, and hall-effect sensors.
+\end{itemize}
+
+%
 
 \end{document}
